@@ -18,7 +18,6 @@ class UserPublicSerializer(serializers.ModelSerializer):
             'id',
             'username',
             'user_type',
-            'uri',
         ]
 
     def get_uri(self, obj):

@@ -1,6 +1,6 @@
 from rest_framework import serializers
 from rest_framework.reverse import reverse as api_reverse
-from ..models import User
+from users.models import User
 
 
 class UserDetailSerializer(serializers.ModelSerializer):
